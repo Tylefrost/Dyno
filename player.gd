@@ -1,11 +1,11 @@
 extends CharacterBody2D
 
-var speed = 200
+var speed = 600
 var gravity_strength = 100
 
 var hook_pos = Vector2()
 var hooked = false
-var rope_length = 100
+var rope_length = 10
 var current_rope_length
 
 func _ready():
@@ -70,4 +70,4 @@ func swing(delta):
 	if global_position.distance_to(hook_pos) > current_rope_length:
 		global_position = hook_pos + radius.normalized() * current_rope_length
 		
-	velocity += (hook_pos - global_position).normalized() * 15000 * delta
+	velocity += (hook_pos - global_position).normalized() * gravity_strength * delta
