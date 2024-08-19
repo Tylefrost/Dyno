@@ -1,0 +1,177 @@
+[gd_scene load_steps=4 format=3 uid="uid://cglhcruk78cnh"]
+
+[ext_resource type="Script" path="res://main_menu.gd" id="1_vmrce"]
+[ext_resource type="Script" path="res://PauseMenu.gd" id="2_8hebc"]
+[ext_resource type="Script" path="res://DeathScreen.gd" id="3_f0igq"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="MainMenu" type="Control" parent="."]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vmrce")
+
+[node name="ColorRect" type="ColorRect" parent="MainMenu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.594641, 0.514437, 0.522888, 1)
+
+[node name="GridContainer" type="GridContainer" parent="MainMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="MainMenu/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 52
+text = "Welcome to Dyno!"
+
+[node name="Start" type="Button" parent="MainMenu/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Start Game"
+
+[node name="quit" type="Button" parent="MainMenu/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Quit Game"
+
+[node name="PauseMenu" type="Control" parent="."]
+process_mode = 3
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+script = ExtResource("2_8hebc")
+
+[node name="ColorRect" type="ColorRect" parent="PauseMenu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0.537255, 0.721569, 0.52549)
+
+[node name="GridContainer" type="GridContainer" parent="PauseMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -241.5
+offset_top = -180.5
+offset_right = 241.5
+offset_bottom = 180.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="PauseMenu/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 73
+text = "Game Paused"
+horizontal_alignment = 1
+
+[node name="settings" type="Button" parent="PauseMenu/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Open Settings Menu"
+
+[node name="resume" type="Button" parent="PauseMenu/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Resume Game"
+
+[node name="quit" type="Button" parent="PauseMenu/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Quit Game"
+
+[node name="returntomenu" type="Button" parent="PauseMenu/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Return to Main Menu"
+
+[node name="DeathScreen" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_f0igq")
+
+[node name="ColorRect" type="ColorRect" parent="DeathScreen"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.670928, 0.00877933, 9.62615e-08, 1)
+
+[node name="GridContainer" type="GridContainer" parent="DeathScreen"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -117.5
+offset_top = -81.0
+offset_right = 117.5
+offset_bottom = 81.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="DeathScreen/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 73
+text = "You've expired"
+horizontal_alignment = 1
+
+[node name="restartbutton" type="Button" parent="DeathScreen/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Restart Game"
+
+[node name="respawnbutton" type="Button" parent="DeathScreen/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Respawn at Checkpoint"
+
+[node name="quitbutton" type="Button" parent="DeathScreen/GridContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "Quit Game"
+
+[connection signal="tree_exited" from="MainMenu" to="." method="_on_main_menu_tree_exited"]
+[connection signal="pressed" from="MainMenu/GridContainer/Start" to="MainMenu" method="_on_start_pressed"]
+[connection signal="pressed" from="MainMenu/GridContainer/quit" to="MainMenu" method="_on_quit_pressed"]
+[connection signal="pressed" from="PauseMenu/GridContainer/resume" to="PauseMenu" method="_on_resume_pressed"]
+[connection signal="pressed" from="PauseMenu/GridContainer/quit" to="PauseMenu" method="_on_quit_pressed"]
+[connection signal="pressed" from="PauseMenu/GridContainer/returntomenu" to="PauseMenu" method="_on_returntomenu_pressed"]
+[connection signal="pressed" from="DeathScreen/GridContainer/restartbutton" to="DeathScreen" method="_on_restartbutton_pressed"]
+[connection signal="pressed" from="DeathScreen/GridContainer/respawnbutton" to="DeathScreen" method="_on_respawnbutton_pressed"]
+[connection signal="pressed" from="DeathScreen/GridContainer/quitbutton" to="DeathScreen" method="_on_quitbutton_pressed"]
