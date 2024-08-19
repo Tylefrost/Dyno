@@ -106,15 +106,12 @@ func swing(delta):
 	
 	if global_position.distance_to(hook_pos) > current_rope_length:
 		global_position = hook_pos + radius.normalized() * current_rope_length
-<<<<<<< HEAD
 		
 	#velocity += (hook_pos - global_position).normalized() * gravity_strength * delta
-=======
 	
 	# brings the grappling back
 	if global_position.distance_to(hook_pos) > 10:
 		velocity += (hook_pos - global_position).normalized() * (gravity_strength * 50) * delta
->>>>>>> b31a48aa00f314f920ea8c5c26fbc3acd2d2cb73
 	
 func die():
 	GameManager.respawn_player()
