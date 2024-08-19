@@ -10,6 +10,7 @@ class_name Player
 @export var jump_charge_time = 1
 var is_charging_jump = false
 var charge_start_time = 0
+var num_jumps = 0
 
 #swinging
 var hook_pos = Vector2()
@@ -41,14 +42,20 @@ func _physics_process(delta):
 		gravity(5)
 		swing(delta)
 		move_and_slide()
-		
+	
+	if !is_on_floor() or !hooked:
+		num_jumps = 1
+	if is_on_floor() or hooked:
+		num_jumps = 0
 	move(delta)
 	move_and_slide()
 	
 	if Input.is_action_just_pressed("jump"):
-		print("jump")
-		is_charging_jump = true
-		charge_start_time = Time.get_ticks_msec() / 1000.0
+		if num_jumps == 0:
+			print("jump")
+			num_jumps += 1
+			is_charging_jump = true
+			charge_start_time = Time.get_ticks_msec() / 1000.0
 		
 	elif Input.is_action_just_released("jump") and is_charging_jump:
 		print("jump2")
