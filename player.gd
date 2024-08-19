@@ -17,7 +17,7 @@ var on_floor = true
 #swinging
 var hook_pos = Vector2()
 var hooked = false
-var rope_length = 10
+var rope_length = 0.001
 var current_rope_length
 
 var speed = 75
@@ -52,13 +52,8 @@ func _physics_process(delta):
 		if velocity.y > 0:
 			anim.play("fall")
 		num_jumps = 1
-
 	if is_on_floor():
-		if on_floor == true:
-			anim.play("front_idle")
-			print("mex")
-		else:
-			on_floor = true
+		anim.play("front_idle")
 		num_jumps = 0
 	if hooked:
 		anim.play("climbing_idle")
@@ -126,7 +121,7 @@ func get_hook_pos():
 			
 func swing(delta):
 	var radius = global_position - hook_pos
-	if velocity.length() < 0.01 or radius.length() < 1: return
+	if velocity.length() < 0.01 or radius.length() < 0.01: return
 	var angle = acos(radius.dot(velocity) / (radius.length() * velocity.length()))
 	var rad_vel = cos(angle) * velocity.length()
 	velocity += radius.normalized() * -rad_vel
@@ -137,10 +132,10 @@ func swing(delta):
 	#velocity += (hook_pos - global_position).normalized() * gravity_strength * delta
 	
 	# brings the grappling back
-	if global_position.distance_to(hook_pos) > 10:
+	if global_position.distance_to(hook_pos) > 0.000001:
 		velocity += (hook_pos - global_position).normalized() * (gravity_strength) * delta
 	
-	if global_position.distance_to(hook_pos) <= 10:
+	if global_position.distance_to(hook_pos) <= 0.000001:
 		velocity = Vector2.ZERO
 	
 func die():
