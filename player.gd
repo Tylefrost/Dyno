@@ -35,13 +35,14 @@ func move(delta):
 		velocity.x = 0
 
 func _physics_process(delta):
-	gravity(1)
 	hook()
 	queue_redraw()
 	if hooked:
-		gravity(5)
+		gravity(0)
 		swing(delta)
 		move_and_slide()
+	else:
+		gravity(1)
 	
 	if !is_on_floor() or !hooked:
 		num_jumps = 1
