@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://7way10li42pb"]
+[gd_scene load_steps=5 format=4 uid="uid://7way10li42pb"]
 
 [ext_resource type="Texture2D" uid="uid://dht8hiys2nepy" path="res://assets/tilemap-Sheet.png" id="1_x5y0l"]
+[ext_resource type="Script" path="res://tilemap.gd" id="2_s0oyw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6rbrs"]
 texture = ExtResource("1_x5y0l")
@@ -172,10 +173,13 @@ texture_region_size = Vector2i(64, 64)
 11:11/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_k5mfc"]
+tile_size = Vector2i(64, 64)
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_6rbrs")
 
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAAAAAAAAACAAIAAAABAAAAAAACAAIAAAACAAAAAAACAAIAAAADAAAAAAACAAIAAAADAAEAAAACAAIAAAADAAIAAAACAAIAAAADAAMAAAACAAIAAAACAAMAAAACAAIAAAACAAIAAAACAAIAAAACAAEAAAACAAIAAAABAAEAAAACAAIAAAABAAIAAAACAAIAAAABAAMAAAACAAIAAAAAAAMAAAACAAIAAAAAAAIAAAACAAIAAAAAAAEAAAACAAIAAAA=")
 tile_set = SubResource("TileSet_k5mfc")
+script = ExtResource("2_s0oyw")
