@@ -1,8 +1,8 @@
 extends CharacterBody2D
 class_name Player
 
-var speed = 600
-var gravity_strength = 100
+var speed = 300
+var gravity_strength = 50
 
 var hook_pos = Vector2()
 var hooked = false
@@ -12,8 +12,8 @@ var current_rope_length
 func _ready():
 	current_rope_length = rope_length
 	
-func gravity():
-	velocity.y += gravity_strength
+func gravity(multiplier):
+	velocity.y += multiplier * gravity_strength
 		
 func move(delta):
 	if Input.is_action_pressed("right"):
@@ -25,13 +25,12 @@ func move(delta):
 
 func _physics_process(delta):
 	print(position)
-	gravity()
+	gravity(1)
 	hook()
 	queue_redraw()
 	if hooked:
-		gravity()
+		gravity(5)
 		swing(delta)
-		velocity *= 0.975
 		move_and_slide()
 		
 	move(delta)
@@ -55,6 +54,7 @@ func hook():
 			hooked = true
 			current_rope_length = global_position.distance_to(hook_pos)
 	if Input.is_action_just_released("left_click") and hooked:
+		velocity.y -= 15 * gravity_strength
 		hooked = false
 func get_hook_pos():
 	for raycast in $Raycast.get_children():

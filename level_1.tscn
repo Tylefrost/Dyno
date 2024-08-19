@@ -61,3 +61,4 @@ texture = ExtResource("2_d2yj7")
 metadata/_edit_lock_ = true
 
 [node name="Node2D" parent="." instance=ExtResource("3_w3p6v")]
+position = Vector2(282, -200)
