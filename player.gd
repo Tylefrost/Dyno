@@ -34,7 +34,6 @@ func move(delta):
 		velocity.x = 0
 
 func _physics_process(delta):
-	print(position)
 	gravity(1)
 	hook()
 	queue_redraw()
@@ -75,7 +74,9 @@ func hook():
 	$Raycast.look_at(get_global_mouse_position())
 	if Input.is_action_just_pressed("left_click"):
 		hook_pos = get_hook_pos()
+		print(hook_pos)
 		if hook_pos:
+			print("sex")
 			hooked = true
 			current_rope_length = global_position.distance_to(hook_pos)
 	if Input.is_action_just_released("left_click") and hooked:
@@ -86,19 +87,27 @@ func get_hook_pos():
 	for raycast in $Raycast.get_children():
 		for individual_raycast in raycast.get_children():
 			if individual_raycast.is_colliding():
+				individual_raycast.force_raycast_update()
 				return individual_raycast.get_collision_point()
 			
 func swing(delta):
 	var radius = global_position - hook_pos
-	if velocity.length() < 0.01 or radius.length() < 10: return
+	if velocity.length() < 0.01 or radius.length() < 1: return
 	var angle = acos(radius.dot(velocity) / (radius.length() * velocity.length()))
 	var rad_vel = cos(angle) * velocity.length()
 	velocity += radius.normalized() * -rad_vel
 	
 	if global_position.distance_to(hook_pos) > current_rope_length:
 		global_position = hook_pos + radius.normalized() * current_rope_length
+<<<<<<< HEAD
 		
 	#velocity += (hook_pos - global_position).normalized() * gravity_strength * delta
+=======
+	
+	# brings the grappling back
+	if global_position.distance_to(hook_pos) > 10:
+		velocity += (hook_pos - global_position).normalized() * (gravity_strength * 50) * delta
+>>>>>>> b31a48aa00f314f920ea8c5c26fbc3acd2d2cb73
 	
 func die():
 	GameManager.respawn_player()
