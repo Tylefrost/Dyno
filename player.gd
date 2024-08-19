@@ -1,4 +1,5 @@
 extends CharacterBody2D
+class_name Player
 
 var speed = 600
 var gravity_strength = 100
@@ -71,3 +72,6 @@ func swing(delta):
 		global_position = hook_pos + radius.normalized() * current_rope_length
 		
 	velocity += (hook_pos - global_position).normalized() * gravity_strength * delta
+	
+func die():
+	GameManager.respawn_player()
