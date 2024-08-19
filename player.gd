@@ -11,6 +11,8 @@ class_name Player
 var is_charging_jump = false
 var charge_start_time = 0
 var num_jumps = 0
+var jump_type = true
+var on_floor = true
 
 #swinging
 var hook_pos = Vector2()
@@ -19,6 +21,8 @@ var rope_length = 10
 var current_rope_length
 
 var speed = 75
+
+@onready var anim = $AnimationPlayer
 
 func _ready():
 	current_rope_length = rope_length
@@ -45,8 +49,21 @@ func _physics_process(delta):
 		gravity(1)
 	
 	if !is_on_floor() or !hooked:
+		if velocity.y > 0:
+			anim.play("fall")
+		if velocity.y < 0:
+			anim.play()
 		num_jumps = 1
-	if is_on_floor() or hooked:
+
+	if is_on_floor():
+		if on_floor == true:
+			anim.play("front_idle")
+			print("mex")
+		else:
+			on_floor = true
+		num_jumps = 0
+	if hooked:
+		anim.play("climbing_idle")
 		num_jumps = 0
 	move(delta)
 	move_and_slide()
@@ -60,6 +77,7 @@ func _physics_process(delta):
 		
 	elif Input.is_action_just_released("jump") and is_charging_jump:
 		print("jump2")
+		anim.play("back_idle")
 		is_charging_jump = false
 		velocity.y = -get_jump_force()
 		
@@ -90,7 +108,17 @@ func hook():
 	if Input.is_action_just_released("left_click") and hooked:
 		velocity.y -= 22 * gravity_strength
 		hooked = false
-		
+		if velocity.x < 0:
+			anim.play("jump_left")
+		if velocity.x > 0:
+			anim.play("jump_right")
+		if velocity.x == 0:
+			if jump_type:
+				jump_type = !jump_type
+				anim.play("jump_right")
+			else:
+				jump_type = !jump_type
+				anim.play("jump_left")
 func get_hook_pos():
 	for raycast in $Raycast.get_children():
 		for individual_raycast in raycast.get_children():
