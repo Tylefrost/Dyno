@@ -31,6 +31,7 @@ position = Vector2(100, 0)
 rotation = 4.71239
 target_position = Vector2(0, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 5)
@@ -38,6 +39,7 @@ rotation = 4.71239
 skew = 0.0872665
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, -5)
@@ -45,6 +47,7 @@ rotation = 4.71239
 skew = -0.0872665
 target_position = Vector2(0, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 10)
@@ -52,6 +55,7 @@ rotation = 4.71239
 skew = 0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, -10)
@@ -59,6 +63,7 @@ rotation = 4.71239
 skew = -0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 15)
@@ -66,6 +71,7 @@ rotation = 4.71239
 skew = 0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, -15)
@@ -73,6 +79,7 @@ rotation = 4.71239
 skew = -0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 20)
@@ -80,6 +87,7 @@ rotation = 4.71239
 skew = 0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, -20)
@@ -87,6 +95,7 @@ rotation = 4.71239
 skew = -0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 25)
@@ -94,6 +103,7 @@ rotation = 4.71239
 skew = 0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, -25)
@@ -101,6 +111,7 @@ rotation = 4.71239
 skew = -0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 30)
@@ -108,6 +119,7 @@ rotation = 4.71239
 skew = 0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, -30)
@@ -115,6 +127,7 @@ rotation = 4.71239
 skew = -0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 35)
@@ -122,6 +135,7 @@ rotation = 4.71239
 skew = 0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, -35)
@@ -129,6 +143,7 @@ rotation = 4.71239
 skew = -0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 40)
@@ -136,6 +151,7 @@ rotation = 4.71239
 skew = 0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, -40)
@@ -143,6 +159,7 @@ rotation = 4.71239
 skew = -0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast4"]
 position = Vector2(100, 45)
@@ -150,8 +167,686 @@ rotation = 4.71239
 skew = 0.785398
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast4"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+hit_from_inside = true
+
+[node name="Raycast4i" type="Node2D" parent="Raycast"]
+scale = Vector2(0.1, 0.1)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast4i"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast4i2" type="Node2D" parent="Raycast"]
+scale = Vector2(0.03, 0.03)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast4i2"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast4i3" type="Node2D" parent="Raycast"]
+rotation = 0.785398
+scale = Vector2(0.2, 0.2)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast4i3"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast4i4" type="Node2D" parent="Raycast"]
+scale = Vector2(0.15, 0.15)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast4i4"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast4i5" type="Node2D" parent="Raycast"]
+scale = Vector2(0.005, 0.005)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast4i5"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast4i5"]
 position = Vector2(100, -45)
 rotation = 4.71239
 skew = -0.785398
@@ -167,6 +862,7 @@ position = Vector2(100, 0)
 rotation = 4.71239
 target_position = Vector2(0, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 5)
@@ -174,6 +870,7 @@ rotation = 4.71239
 skew = 0.0872665
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, -5)
@@ -181,6 +878,7 @@ rotation = 4.71239
 skew = -0.0872665
 target_position = Vector2(0, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 10)
@@ -188,6 +886,7 @@ rotation = 4.71239
 skew = 0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, -10)
@@ -195,6 +894,7 @@ rotation = 4.71239
 skew = -0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 15)
@@ -202,6 +902,7 @@ rotation = 4.71239
 skew = 0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, -15)
@@ -209,6 +910,7 @@ rotation = 4.71239
 skew = -0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 20)
@@ -216,6 +918,7 @@ rotation = 4.71239
 skew = 0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, -20)
@@ -223,6 +926,7 @@ rotation = 4.71239
 skew = -0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 25)
@@ -230,6 +934,7 @@ rotation = 4.71239
 skew = 0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, -25)
@@ -237,6 +942,7 @@ rotation = 4.71239
 skew = -0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 30)
@@ -244,6 +950,7 @@ rotation = 4.71239
 skew = 0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, -30)
@@ -251,6 +958,7 @@ rotation = 4.71239
 skew = -0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 35)
@@ -258,6 +966,7 @@ rotation = 4.71239
 skew = 0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, -35)
@@ -265,6 +974,7 @@ rotation = 4.71239
 skew = -0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 40)
@@ -272,6 +982,7 @@ rotation = 4.71239
 skew = 0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, -40)
@@ -279,6 +990,7 @@ rotation = 4.71239
 skew = -0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast3"]
 position = Vector2(100, 45)
@@ -286,8 +998,690 @@ rotation = 4.71239
 skew = 0.785398
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast3"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+hit_from_inside = true
+
+[node name="Raycast3i" type="Node2D" parent="Raycast"]
+rotation = 1.5708
+scale = Vector2(0.1, 0.1)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast3i"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast3i2" type="Node2D" parent="Raycast"]
+rotation = 1.5708
+scale = Vector2(0.03, 0.03)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast3i2"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast3i3" type="Node2D" parent="Raycast"]
+rotation = 2.35619
+scale = Vector2(0.2, 0.2)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast3i3"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast3i4" type="Node2D" parent="Raycast"]
+rotation = 1.5708
+scale = Vector2(0.15, 0.15)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast3i4"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast3i5" type="Node2D" parent="Raycast"]
+rotation = 1.5708
+scale = Vector2(0.005, 0.005)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast3i5"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast3i5"]
 position = Vector2(100, -45)
 rotation = 4.71239
 skew = -0.785398
@@ -303,6 +1697,7 @@ position = Vector2(100, 0)
 rotation = 4.71239
 target_position = Vector2(0, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 5)
@@ -310,6 +1705,7 @@ rotation = 4.71239
 skew = 0.0872665
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, -5)
@@ -317,6 +1713,7 @@ rotation = 4.71239
 skew = -0.0872665
 target_position = Vector2(0, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 10)
@@ -324,6 +1721,7 @@ rotation = 4.71239
 skew = 0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, -10)
@@ -331,6 +1729,7 @@ rotation = 4.71239
 skew = -0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 15)
@@ -338,6 +1737,7 @@ rotation = 4.71239
 skew = 0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, -15)
@@ -345,6 +1745,7 @@ rotation = 4.71239
 skew = -0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 20)
@@ -352,6 +1753,7 @@ rotation = 4.71239
 skew = 0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, -20)
@@ -359,6 +1761,7 @@ rotation = 4.71239
 skew = -0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 25)
@@ -366,6 +1769,7 @@ rotation = 4.71239
 skew = 0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, -25)
@@ -373,6 +1777,7 @@ rotation = 4.71239
 skew = -0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 30)
@@ -380,6 +1785,7 @@ rotation = 4.71239
 skew = 0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, -30)
@@ -387,6 +1793,7 @@ rotation = 4.71239
 skew = -0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 35)
@@ -394,6 +1801,7 @@ rotation = 4.71239
 skew = 0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, -35)
@@ -401,6 +1809,7 @@ rotation = 4.71239
 skew = -0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 40)
@@ -408,6 +1817,7 @@ rotation = 4.71239
 skew = 0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, -40)
@@ -415,6 +1825,7 @@ rotation = 4.71239
 skew = -0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast2"]
 position = Vector2(100, 45)
@@ -422,8 +1833,690 @@ rotation = 4.71239
 skew = 0.785398
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast2"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+hit_from_inside = true
+
+[node name="Raycast2i" type="Node2D" parent="Raycast"]
+rotation = -1.5708
+scale = Vector2(0.1, 0.1)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast2i"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast2i2" type="Node2D" parent="Raycast"]
+rotation = -1.5708
+scale = Vector2(0.03, 0.03)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast2i2"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast2i3" type="Node2D" parent="Raycast"]
+rotation = -0.785398
+scale = Vector2(0.2, 0.2)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast2i3"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast2i4" type="Node2D" parent="Raycast"]
+rotation = -1.5708
+scale = Vector2(0.15, 0.15)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast2i4"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast2i5" type="Node2D" parent="Raycast"]
+rotation = -1.5708
+scale = Vector2(0.005, 0.005)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast2i5"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast2i5"]
 position = Vector2(100, -45)
 rotation = 4.71239
 skew = -0.785398
@@ -439,6 +2532,7 @@ position = Vector2(100, 0)
 rotation = 4.71239
 target_position = Vector2(0, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 5)
@@ -446,6 +2540,7 @@ rotation = 4.71239
 skew = 0.0872665
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, -5)
@@ -453,6 +2548,7 @@ rotation = 4.71239
 skew = -0.0872665
 target_position = Vector2(0, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 10)
@@ -460,6 +2556,7 @@ rotation = 4.71239
 skew = 0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, -10)
@@ -467,6 +2564,7 @@ rotation = 4.71239
 skew = -0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 15)
@@ -474,6 +2572,7 @@ rotation = 4.71239
 skew = 0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, -15)
@@ -481,6 +2580,7 @@ rotation = 4.71239
 skew = -0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 20)
@@ -488,6 +2588,7 @@ rotation = 4.71239
 skew = 0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, -20)
@@ -495,6 +2596,7 @@ rotation = 4.71239
 skew = -0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 25)
@@ -502,6 +2604,7 @@ rotation = 4.71239
 skew = 0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, -25)
@@ -509,6 +2612,7 @@ rotation = 4.71239
 skew = -0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 30)
@@ -516,6 +2620,7 @@ rotation = 4.71239
 skew = 0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, -30)
@@ -523,6 +2628,7 @@ rotation = 4.71239
 skew = -0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 35)
@@ -530,6 +2636,7 @@ rotation = 4.71239
 skew = 0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, -35)
@@ -537,6 +2644,7 @@ rotation = 4.71239
 skew = -0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 40)
@@ -544,6 +2652,7 @@ rotation = 4.71239
 skew = 0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, -40)
@@ -551,6 +2660,7 @@ rotation = 4.71239
 skew = -0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast1"]
 position = Vector2(100, 45)
@@ -558,8 +2668,690 @@ rotation = 4.71239
 skew = 0.785398
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
+hit_from_inside = true
 
 [node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast1"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+hit_from_inside = true
+
+[node name="Raycast1i" type="Node2D" parent="Raycast"]
+rotation = 3.14159
+scale = Vector2(0.1, 0.1)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast1i"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast1i2" type="Node2D" parent="Raycast"]
+rotation = 3.14159
+scale = Vector2(0.03, 0.03)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast1i2"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast1i3" type="Node2D" parent="Raycast"]
+rotation = 3.92699
+scale = Vector2(0.2, 0.2)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast1i3"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast1i4" type="Node2D" parent="Raycast"]
+rotation = 3.14159
+scale = Vector2(0.15, 0.15)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast1i4"]
+position = Vector2(100, -45)
+rotation = 4.71239
+skew = -0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="Raycast1i5" type="Node2D" parent="Raycast"]
+rotation = 3.14159
+scale = Vector2(0.005, 0.005)
+
+[node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 0)
+rotation = 4.71239
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 5)
+rotation = 4.71239
+skew = 0.0872665
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, -5)
+rotation = 4.71239
+skew = -0.0872665
+target_position = Vector2(0, 500)
+collision_mask = 2
+
+[node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 10)
+rotation = 4.71239
+skew = 0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, -10)
+rotation = 4.71239
+skew = -0.174533
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 15)
+rotation = 4.71239
+skew = 0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, -15)
+rotation = 4.71239
+skew = -0.261799
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 20)
+rotation = 4.71239
+skew = 0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, -20)
+rotation = 4.71239
+skew = -0.349066
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 25)
+rotation = 4.71239
+skew = 0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, -25)
+rotation = 4.71239
+skew = -0.436332
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 30)
+rotation = 4.71239
+skew = 0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, -30)
+rotation = 4.71239
+skew = -0.523599
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 35)
+rotation = 4.71239
+skew = 0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, -35)
+rotation = 4.71239
+skew = -0.610865
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 40)
+rotation = 4.71239
+skew = 0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, -40)
+rotation = 4.71239
+skew = -0.698132
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast1i5"]
+position = Vector2(100, 45)
+rotation = 4.71239
+skew = 0.785398
+target_position = Vector2(2.08165e-12, 500)
+collision_mask = 2
+
+[node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast1i5"]
 position = Vector2(100, -45)
 rotation = 4.71239
 skew = -0.785398
