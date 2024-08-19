@@ -3,6 +3,7 @@ class_name Player
 
 #affects swing and jump
 @export var gravity_strength = 8
+var player_alive = true
 
 #jumping
 @export var max_jump_force = 200
