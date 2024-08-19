@@ -5,8 +5,8 @@ class_name Player
 @export var gravity_strength = 30
 
 #jumping
-@export var max_jump_force = 1000
-@export var min_jump_force = 300
+@export var max_jump_force = 400
+@export var min_jump_force = 100
 @export var jump_charge_time = 1
 var is_charging_jump = false
 var charge_start_time = 0
@@ -17,7 +17,7 @@ var hooked = false
 var rope_length = 10
 var current_rope_length
 
-var speed = 300
+var speed = 100
 
 func _ready():
 	current_rope_length = rope_length
@@ -79,7 +79,7 @@ func hook():
 			hooked = true
 			current_rope_length = global_position.distance_to(hook_pos)
 	if Input.is_action_just_released("left_click") and hooked:
-		velocity.y -= 15 * gravity_strength
+		velocity.y -= 10 * gravity_strength
 		hooked = false
 		
 func get_hook_pos():
@@ -98,7 +98,7 @@ func swing(delta):
 	if global_position.distance_to(hook_pos) > current_rope_length:
 		global_position = hook_pos + radius.normalized() * current_rope_length
 		
-	velocity += (hook_pos - global_position).normalized() * gravity_strength * delta
+	#velocity += (hook_pos - global_position).normalized() * gravity_strength * delta
 	
 func die():
 	GameManager.respawn_player()

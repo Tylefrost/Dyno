@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://pbwsgj41al4a"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_5gwle"]
-[ext_resource type="Texture2D" uid="uid://d2wwqec14d3pj" path="res://icon.svg" id="1_tg2bs"]
+[ext_resource type="Texture2D" uid="uid://bu7p7r83jieg3" path="res://assets/sprites/player-Sheet.png" id="2_bog7f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s4a61"]
-size = Vector2(130, 130)
+size = Vector2(12, 16)
 
 [node name="Player" type="CharacterBody2D"]
 scale = Vector2(0.5, 0.5)
@@ -18,141 +18,144 @@ metadata/_edit_lock_ = true
 metadata/_edit_lock_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_tg2bs")
+texture = ExtResource("2_bog7f")
+hframes = 4
+vframes = 8
 metadata/_edit_lock_ = true
 
 [node name="Raycast" type="Node2D" parent="."]
+scale = Vector2(0.05, 0.05)
 
 [node name="Raycast4" type="Node2D" parent="Raycast"]
 scale = Vector2(0.3, 0.3)
 
 [node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 0)
+position = Vector2(20, -1.66667)
 rotation = 4.71239
 target_position = Vector2(0, 500)
 collision_mask = 2
 
 [node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 5)
+position = Vector2(20, 3.33333)
 rotation = 4.71239
 skew = 0.0872665
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -5)
+position = Vector2(20, -6.66667)
 rotation = 4.71239
 skew = -0.0872665
 target_position = Vector2(0, 500)
 collision_mask = 2
 
 [node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 10)
+position = Vector2(20, 8.33333)
 rotation = 4.71239
 skew = 0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -10)
+position = Vector2(20, -11.6667)
 rotation = 4.71239
 skew = -0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 15)
+position = Vector2(20, 13.3333)
 rotation = 4.71239
 skew = 0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -15)
+position = Vector2(20, -16.6667)
 rotation = 4.71239
 skew = -0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 20)
+position = Vector2(20, 18.3333)
 rotation = 4.71239
 skew = 0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -20)
+position = Vector2(20, -21.6667)
 rotation = 4.71239
 skew = -0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 25)
+position = Vector2(20, 23.3333)
 rotation = 4.71239
 skew = 0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -25)
+position = Vector2(20, -26.6667)
 rotation = 4.71239
 skew = -0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 30)
+position = Vector2(20, 28.3333)
 rotation = 4.71239
 skew = 0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -30)
+position = Vector2(20, -31.6667)
 rotation = 4.71239
 skew = -0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 35)
+position = Vector2(20, 33.3333)
 rotation = 4.71239
 skew = 0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -35)
+position = Vector2(20, -36.6667)
 rotation = 4.71239
 skew = -0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 40)
+position = Vector2(20, 38.3333)
 rotation = 4.71239
 skew = 0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -40)
+position = Vector2(20, -41.6667)
 rotation = 4.71239
 skew = -0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, 45)
+position = Vector2(20, 43.3333)
 rotation = 4.71239
 skew = 0.785398
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast4"]
-position = Vector2(100, -45)
+position = Vector2(20, -46.6667)
 rotation = 4.71239
 skew = -0.785398
 target_position = Vector2(2.08165e-12, 500)
@@ -163,132 +166,132 @@ rotation = 1.5708
 scale = Vector2(0.3, 0.3)
 
 [node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 0)
+position = Vector2(26.6668, 1.66656)
 rotation = 4.71239
 target_position = Vector2(0, 500)
 collision_mask = 2
 
 [node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 5)
+position = Vector2(26.6668, 6.66656)
 rotation = 4.71239
 skew = 0.0872665
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -5)
+position = Vector2(26.6668, -3.33344)
 rotation = 4.71239
 skew = -0.0872665
 target_position = Vector2(0, 500)
 collision_mask = 2
 
 [node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 10)
+position = Vector2(26.6668, 11.6666)
 rotation = 4.71239
 skew = 0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -10)
+position = Vector2(26.6668, -8.33344)
 rotation = 4.71239
 skew = -0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 15)
+position = Vector2(26.6668, 16.6666)
 rotation = 4.71239
 skew = 0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -15)
+position = Vector2(26.6668, -13.3334)
 rotation = 4.71239
 skew = -0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 20)
+position = Vector2(26.6668, 21.6666)
 rotation = 4.71239
 skew = 0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -20)
+position = Vector2(26.6668, -18.3334)
 rotation = 4.71239
 skew = -0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 25)
+position = Vector2(26.6668, 26.6666)
 rotation = 4.71239
 skew = 0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -25)
+position = Vector2(26.6668, -23.3334)
 rotation = 4.71239
 skew = -0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 30)
+position = Vector2(26.6668, 31.6666)
 rotation = 4.71239
 skew = 0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -30)
+position = Vector2(26.6668, -28.3334)
 rotation = 4.71239
 skew = -0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 35)
+position = Vector2(26.6668, 36.6666)
 rotation = 4.71239
 skew = 0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -35)
+position = Vector2(26.6668, -33.3334)
 rotation = 4.71239
 skew = -0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 40)
+position = Vector2(26.6668, 41.6666)
 rotation = 4.71239
 skew = 0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -40)
+position = Vector2(26.6668, -38.3334)
 rotation = 4.71239
 skew = -0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, 45)
+position = Vector2(26.6668, 46.6666)
 rotation = 4.71239
 skew = 0.785398
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast3"]
-position = Vector2(100, -45)
+position = Vector2(26.6668, -43.3334)
 rotation = 4.71239
 skew = -0.785398
 target_position = Vector2(2.08165e-12, 500)
@@ -299,132 +302,132 @@ rotation = -1.5708
 scale = Vector2(0.3, 0.3)
 
 [node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 0)
+position = Vector2(26.6665, -1.66656)
 rotation = 4.71239
 target_position = Vector2(0, 500)
 collision_mask = 2
 
 [node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 5)
+position = Vector2(26.6665, 3.33344)
 rotation = 4.71239
 skew = 0.0872665
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -5)
+position = Vector2(26.6665, -6.66656)
 rotation = 4.71239
 skew = -0.0872665
 target_position = Vector2(0, 500)
 collision_mask = 2
 
 [node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 10)
+position = Vector2(26.6665, 8.33344)
 rotation = 4.71239
 skew = 0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -10)
+position = Vector2(26.6665, -11.6666)
 rotation = 4.71239
 skew = -0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 15)
+position = Vector2(26.6665, 13.3334)
 rotation = 4.71239
 skew = 0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -15)
+position = Vector2(26.6665, -16.6666)
 rotation = 4.71239
 skew = -0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 20)
+position = Vector2(26.6665, 18.3334)
 rotation = 4.71239
 skew = 0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -20)
+position = Vector2(26.6665, -21.6666)
 rotation = 4.71239
 skew = -0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 25)
+position = Vector2(26.6665, 23.3334)
 rotation = 4.71239
 skew = 0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -25)
+position = Vector2(26.6665, -26.6666)
 rotation = 4.71239
 skew = -0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 30)
+position = Vector2(26.6665, 28.3334)
 rotation = 4.71239
 skew = 0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -30)
+position = Vector2(26.6665, -31.6666)
 rotation = 4.71239
 skew = -0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 35)
+position = Vector2(26.6665, 33.3334)
 rotation = 4.71239
 skew = 0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -35)
+position = Vector2(26.6665, -36.6666)
 rotation = 4.71239
 skew = -0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 40)
+position = Vector2(26.6665, 38.3334)
 rotation = 4.71239
 skew = 0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -40)
+position = Vector2(26.6665, -41.6666)
 rotation = 4.71239
 skew = -0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, 45)
+position = Vector2(26.6665, 43.3334)
 rotation = 4.71239
 skew = 0.785398
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast2"]
-position = Vector2(100, -45)
+position = Vector2(26.6665, -46.6666)
 rotation = 4.71239
 skew = -0.785398
 target_position = Vector2(2.08165e-12, 500)
@@ -435,132 +438,132 @@ rotation = 3.14159
 scale = Vector2(0.3, 0.3)
 
 [node name="RayCast2D" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 0)
+position = Vector2(19.9999, 1.66672)
 rotation = 4.71239
 target_position = Vector2(0, 500)
 collision_mask = 2
 
 [node name="RayCast2D2" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 5)
+position = Vector2(19.9999, 6.66672)
 rotation = 4.71239
 skew = 0.0872665
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D3" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -5)
+position = Vector2(19.9999, -3.33328)
 rotation = 4.71239
 skew = -0.0872665
 target_position = Vector2(0, 500)
 collision_mask = 2
 
 [node name="RayCast2D4" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 10)
+position = Vector2(19.9999, 11.6667)
 rotation = 4.71239
 skew = 0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D5" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -10)
+position = Vector2(19.9999, -8.33329)
 rotation = 4.71239
 skew = -0.174533
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D6" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 15)
+position = Vector2(19.9999, 16.6667)
 rotation = 4.71239
 skew = 0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D7" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -15)
+position = Vector2(19.9999, -13.3333)
 rotation = 4.71239
 skew = -0.261799
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D8" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 20)
+position = Vector2(19.9999, 21.6667)
 rotation = 4.71239
 skew = 0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D9" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -20)
+position = Vector2(19.9999, -18.3333)
 rotation = 4.71239
 skew = -0.349066
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D10" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 25)
+position = Vector2(19.9999, 26.6667)
 rotation = 4.71239
 skew = 0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D11" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -25)
+position = Vector2(19.9999, -23.3333)
 rotation = 4.71239
 skew = -0.436332
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D12" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 30)
+position = Vector2(19.9999, 31.6667)
 rotation = 4.71239
 skew = 0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D13" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -30)
+position = Vector2(19.9999, -28.3333)
 rotation = 4.71239
 skew = -0.523599
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D14" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 35)
+position = Vector2(19.9999, 36.6667)
 rotation = 4.71239
 skew = 0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D15" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -35)
+position = Vector2(19.9999, -33.3333)
 rotation = 4.71239
 skew = -0.610865
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D16" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 40)
+position = Vector2(19.9999, 41.6667)
 rotation = 4.71239
 skew = 0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D17" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -40)
+position = Vector2(19.9999, -38.3333)
 rotation = 4.71239
 skew = -0.698132
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D18" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, 45)
+position = Vector2(19.9999, 46.6667)
 rotation = 4.71239
 skew = 0.785398
 target_position = Vector2(2.08165e-12, 500)
 collision_mask = 2
 
 [node name="RayCast2D19" type="RayCast2D" parent="Raycast/Raycast1"]
-position = Vector2(100, -45)
+position = Vector2(19.9999, -43.3333)
 rotation = 4.71239
 skew = -0.785398
 target_position = Vector2(2.08165e-12, 500)
