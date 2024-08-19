@@ -2,11 +2,11 @@ extends CharacterBody2D
 class_name Player
 
 #affects swing and jump
-@export var gravity_strength = 50
+@export var gravity_strength = 30
 
 #jumping
 @export var max_jump_force = 1000
-@export var min_jump_force = 100
+@export var min_jump_force = 300
 @export var jump_charge_time = 1
 var is_charging_jump = false
 var charge_start_time = 0
@@ -84,8 +84,9 @@ func hook():
 		
 func get_hook_pos():
 	for raycast in $Raycast.get_children():
-		if raycast.is_colliding():
-			return raycast.get_collision_point()
+		for individual_raycast in raycast.get_children():
+			if individual_raycast.is_colliding():
+				return individual_raycast.get_collision_point()
 			
 func swing(delta):
 	var radius = global_position - hook_pos
