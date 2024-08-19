@@ -3,6 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://pbwsgj41al4a" path="res://player.tscn" id="1_7x2ns"]
 [ext_resource type="Texture2D" uid="uid://d2wwqec14d3pj" path="res://icon.svg" id="2_d2yj7"]
 [ext_resource type="PackedScene" uid="uid://7way10li42pb" path="res://tileset.tscn" id="3_w3p6v"]
+[ext_resource type="Script" path="res://main_menu.gd" id="4_epvg6"]
+[ext_resource type="Script" path="res://PauseMenu.gd" id="5_6esr1"]
+[ext_resource type="Script" path="res://DeathScreen.gd" id="6_6fmqv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_76ly0"]
 size = Vector2(130.825, 134)
