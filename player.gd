@@ -2,10 +2,10 @@ extends CharacterBody2D
 class_name Player
 
 #affects swing and jump
-@export var gravity_strength = 30
+@export var gravity_strength = 8
 
 #jumping
-@export var max_jump_force = 400
+@export var max_jump_force = 200
 @export var min_jump_force = 100
 @export var jump_charge_time = 1
 var is_charging_jump = false
@@ -18,7 +18,7 @@ var hooked = false
 var rope_length = 10
 var current_rope_length
 
-var speed = 100
+var speed = 75
 
 func _ready():
 	current_rope_length = rope_length
@@ -87,7 +87,7 @@ func hook():
 			hooked = true
 			current_rope_length = global_position.distance_to(hook_pos)
 	if Input.is_action_just_released("left_click") and hooked:
-		velocity.y -= 10 * gravity_strength
+		velocity.y -= 22 * gravity_strength
 		hooked = false
 		
 func get_hook_pos():
