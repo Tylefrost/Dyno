@@ -111,7 +111,10 @@ func swing(delta):
 	
 	# brings the grappling back
 	if global_position.distance_to(hook_pos) > 10:
-		velocity += (hook_pos - global_position).normalized() * (gravity_strength * 50) * delta
+		velocity += (hook_pos - global_position).normalized() * (gravity_strength) * delta
+	
+	if global_position.distance_to(hook_pos) <= 10:
+		velocity = Vector2.ZERO
 	
 func die():
 	GameManager.respawn_player()
