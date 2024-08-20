@@ -3,6 +3,8 @@ class_name Player
 
 #affects swing and jump
 @export var gravity_strength = 4
+var player_alive = true
+var player_won = false
 
 #jumping
 @export var max_jump_force = 150
@@ -39,6 +41,7 @@ func move(delta):
 		velocity.x = 0
 
 func _physics_process(delta):
+	
 	hook()
 	queue_redraw()
 	if hooked:
@@ -142,4 +145,4 @@ func swing(delta):
 		velocity = Vector2.ZERO
 	
 func die():
-	GameManager.respawn_player()
+	player_alive = false
