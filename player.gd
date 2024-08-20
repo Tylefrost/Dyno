@@ -48,11 +48,11 @@ func _physics_process(delta):
 	else:
 		gravity(1)
 	
-	if !is_on_floor() or !hooked:
+	if !is_on_floor() and !hooked:
 		if velocity.y > 0:
 			anim.play("fall")
 		num_jumps = 1
-	if is_on_floor():
+	elif is_on_floor():
 		anim.play("front_idle")
 		num_jumps = 0
 	if hooked:
