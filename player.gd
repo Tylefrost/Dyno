@@ -104,14 +104,6 @@ func get_jump_force() -> float:
 	var jump_force = min_jump_force + (max_jump_force - min_jump_force) * (charge_duration / jump_charge_time)
 	return jump_force
 	
-func _draw():
-	var pos = global_position
-	
-	if hooked:
-		draw_line(Vector2(0, -16), to_local(hook_pos), Color(0.35, 0.7, 0.9), 3, true)
-	else:
-		return
-	
 func hook():
 	$Raycast.look_at(get_global_mouse_position())
 	if Input.is_action_just_pressed("left_click"):
