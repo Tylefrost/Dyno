@@ -23,6 +23,9 @@ var current_rope_length
 
 var speed = 75
 
+var player_alive = true
+var player_won = false
+
 @onready var anim = $AnimationPlayer
 
 func _ready():
@@ -147,4 +150,4 @@ func swing(delta):
 		velocity = Vector2.ZERO
 	
 func die():
-	GameManager.respawn_player()
+	player_alive = false
