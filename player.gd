@@ -5,6 +5,7 @@ class_name Player
 @export var gravity_strength = 6
 
 #jumping
+@onready var charge_bar = $Control/ProgressBar
 @export var max_jump_force = 150
 @export var min_jump_force = 75
 @export var jump_charge_time = 1
@@ -67,7 +68,7 @@ func _physics_process(delta):
 			num_jumps += 1
 			is_charging_jump = true
 			charge_start_time = Time.get_ticks_msec() / 1000.0
-		
+			charge_bar.value = 0
 	elif Input.is_action_just_released("left_click") and is_charging_jump:
 		print("jump2")
 		if anim.current_animation == "jump_left" or anim.current_animation == "jump_right":
@@ -76,11 +77,15 @@ func _physics_process(delta):
 			anim.play("back_idle")
 		is_charging_jump = false
 		velocity.y = -get_jump_force()
-		
+	if !is_on_floor():
+		charge_bar.value = 0
+	if is_charging_jump:
+		charge_bar.value = clamp(Time.get_ticks_msec() / 1000.0 - charge_start_time, 0, jump_charge_time) * 100
 	move_and_slide()
 	
 func get_jump_force() -> float:
 	var charge_duration = clamp(Time.get_ticks_msec() / 1000.0 - charge_start_time, 0, jump_charge_time)
+	#charge_bar.value = charge_duration * 100
 	var jump_force = min_jump_force + (max_jump_force - min_jump_force) * (charge_duration / jump_charge_time)
 	return jump_force
 	

@@ -6347,3 +6347,18 @@ hit_from_inside = true
 libraries = {
 "": SubResource("AnimationLibrary_ncnk1")
 }
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(0.5, 0.5)
+
+[node name="ProgressBar" type="ProgressBar" parent="Control"]
+layout_mode = 0
+offset_left = -28.0
+offset_top = 36.0
+offset_right = 28.0
+offset_bottom = 52.0
+show_percentage = false
