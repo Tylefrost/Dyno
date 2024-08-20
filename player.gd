@@ -1,19 +1,21 @@
 extends CharacterBody2D
 class_name Player
+
 #affects swing and jump
-@export var gravity_strength = 8
+@export var gravity_strength = 4
 var player_alive = true
 var player_won = false
+
 #jumping
-@export var max_jump_force = 200
-@export var min_jump_force = 100
+@export var max_jump_force = 150
+@export var min_jump_force = 50
 @export var jump_charge_time = 1
 var is_charging_jump = false
 var charge_start_time = 0
 var num_jumps = 0
 var jump_type = true
 var on_floor = true
-
+var missed = false
 #swinging
 var hook_pos = Vector2()
 var hooked = false
@@ -54,6 +56,7 @@ func _physics_process(delta):
 			anim.play("fall")
 		num_jumps = 1
 	elif is_on_floor():
+		missed = false
 		anim.play("front_idle")
 		num_jumps = 0
 	if hooked:
@@ -92,13 +95,15 @@ func _draw():
 	
 func hook():
 	$Raycast.look_at(get_global_mouse_position())
-	if Input.is_action_just_pressed("left_click"):
+	if Input.is_action_just_pressed("left_click") and !missed:
 		hook_pos = get_hook_pos()
 		print(hook_pos)
 		if hook_pos:
 			print("sex")
 			hooked = true
 			current_rope_length = global_position.distance_to(hook_pos)
+		else:
+			missed = true
 	if Input.is_action_just_released("left_click") and hooked:
 		velocity.y -= 22 * gravity_strength
 		hooked = false
