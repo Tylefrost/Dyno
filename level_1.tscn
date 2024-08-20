@@ -1,7 +1,24 @@
-[gd_scene load_steps=3 format=3 uid="uid://dxjlhdpfui63a"]
+[gd_scene load_steps=5 format=3 uid="uid://dxjlhdpfui63a"]
 
 [ext_resource type="PackedScene" uid="uid://pbwsgj41al4a" path="res://player.tscn" id="1_7x2ns"]
+[ext_resource type="Shader" path="res://sun.gdshader" id="3_5m671"]
 [ext_resource type="PackedScene" uid="uid://7way10li42pb" path="res://tileset.tscn" id="3_w3p6v"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4atbw"]
+shader = ExtResource("3_5m671")
+shader_parameter/angle = -0.3
+shader_parameter/position = 0.0
+shader_parameter/spread = 0.223
+shader_parameter/cutoff = -0.732
+shader_parameter/falloff = 0.2
+shader_parameter/edge_fade = 0.15
+shader_parameter/speed = 1.0
+shader_parameter/ray1_density = 10.0
+shader_parameter/ray2_density = 50.0
+shader_parameter/ray2_intensity = 0.469
+shader_parameter/color = Color(1, 0.901961, 0.65098, 0.215686)
+shader_parameter/hdr = false
+shader_parameter/seed = 5.0
 
 [node name="Level1" type="Node2D"]
 
@@ -11,3 +28,11 @@ scale = Vector2(1, 1)
 
 [node name="Node2D" parent="." instance=ExtResource("3_w3p6v")]
 z_index = -1
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_4atbw")
+offset_left = -527.0
+offset_top = -1393.0
+offset_right = 906.0
+offset_bottom = 407.0
+color = Color(1, 1, 1, 0.164706)
