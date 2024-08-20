@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://pbwsgj41al4a" path="res://player.tscn" id="1_7x2ns"]
 [ext_resource type="Shader" path="res://sun.gdshader" id="3_5m671"]
 [ext_resource type="PackedScene" uid="uid://7way10li42pb" path="res://tileset.tscn" id="3_w3p6v"]
-[ext_resource type="PackedScene" uid="uid://u283db0kc2sf" path="res://canvas_layer.tscn" id="4_2jowy"]
+[ext_resource type="PackedScene" path="res://canvas_layer.tscn" id="4_2jowy"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_4atbw"]
 shader = ExtResource("3_5m671")

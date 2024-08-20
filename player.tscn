@@ -1,7 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://pbwsgj41al4a"]
+[gd_scene load_steps=16 format=3 uid="uid://pbwsgj41al4a"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_5gwle"]
 [ext_resource type="Texture2D" uid="uid://bu7p7r83jieg3" path="res://assets/sprites/player-Sheet.png" id="2_bog7f"]
+[ext_resource type="AudioStream" uid="uid://bfylkflxogra3" path="res://assets/sounds/climb.wav" id="3_cmy3d"]
+[ext_resource type="AudioStream" uid="uid://dv2j57mlvm7ou" path="res://assets/sounds/jump.wav" id="4_doly8"]
+[ext_resource type="AudioStream" uid="uid://bw31khyspqywu" path="res://assets/sounds/fall.wav" id="5_yiuer"]
+[ext_resource type="AudioStream" uid="uid://b0yvla6xhpsmx" path="res://assets/sounds/climbingmusic.mp3" id="6_skvm4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s4a61"]
 size = Vector2(12, 16)
@@ -6362,3 +6366,18 @@ offset_top = 36.0
 offset_right = 28.0
 offset_bottom = 52.0
 show_percentage = false
+
+[node name="AudioClimb" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_cmy3d")
+volume_db = -23.0
+
+[node name="AudioJumping" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_doly8")
+volume_db = -23.0
+
+[node name="AudioFall" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_yiuer")
+
+[node name="Audio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_skvm4")
+volume_db = -23.0

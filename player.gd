@@ -28,6 +28,13 @@ var player_won = false
 
 @onready var anim = $AnimationPlayer
 
+# audio
+@onready var climbaudio = $AudioClimb
+@onready var jumpaudio = $AudioJumping
+@onready var fallaudio = $AudioFall
+@onready var backgroundaudio = $Audio
+var fallingaudio = false
+
 func _ready():
 	current_rope_length = rope_length
 	
@@ -43,6 +50,10 @@ func move(delta):
 		velocity.x = 0
 
 func _physics_process(delta):
+	
+	if !backgroundaudio.is_playing():
+		backgroundaudio.play()
+		
 	hook()
 	queue_redraw()
 	if hooked:
@@ -80,6 +91,7 @@ func _physics_process(delta):
 			anim.play("back_idle")
 		is_charging_jump = false
 		velocity.y = -get_jump_force()
+		jumpaudio.play()
 	if !is_on_floor():
 		charge_bar.value = 0
 	if is_charging_jump:
@@ -106,6 +118,7 @@ func hook():
 		hook_pos = get_hook_pos()
 		print(hook_pos)
 		if hook_pos:
+			climbaudio.play()
 			print("sex")
 			hooked = true
 			current_rope_length = global_position.distance_to(hook_pos)
