@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dxjlhdpfui63a"]
+[gd_scene load_steps=8 format=3 uid="uid://dxjlhdpfui63a"]
 
 [ext_resource type="PackedScene" uid="uid://pbwsgj41al4a" path="res://player.tscn" id="1_7x2ns"]
 [ext_resource type="Shader" path="res://sun.gdshader" id="3_5m671"]
 [ext_resource type="PackedScene" uid="uid://7way10li42pb" path="res://tileset.tscn" id="3_w3p6v"]
 [ext_resource type="PackedScene" uid="uid://u283db0kc2sf" path="res://canvas_layer.tscn" id="4_2jowy"]
+[ext_resource type="PackedScene" uid="uid://cexxpy3y28gxj" path="res://win.tscn" id="5_06u8q"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_4atbw"]
 shader = ExtResource("3_5m671")
@@ -21,11 +22,13 @@ shader_parameter/color = Color(1, 0.901961, 0.65098, 0.215686)
 shader_parameter/hdr = false
 shader_parameter/seed = 5.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d460q"]
+
 [node name="Level1" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_7x2ns")]
-position = Vector2(199, 156)
-scale = Vector2(1, 1)
+position = Vector2(146, 206)
+scale = Vector2(1.04473, 1)
 
 [node name="Node2D" parent="." instance=ExtResource("3_w3p6v")]
 z_index = -1
@@ -33,9 +36,19 @@ z_index = -1
 [node name="ColorRect" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_4atbw")
 offset_left = -527.0
-offset_top = -1393.0
+offset_top = -1759.0
 offset_right = 906.0
 offset_bottom = 407.0
 color = Color(1, 1, 1, 0.164706)
 
 [node name="CanvasLayer" parent="." instance=ExtResource("4_2jowy")]
+
+[node name="Win" parent="." instance=ExtResource("5_06u8q")]
+position = Vector2(248, -1298)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-10, -1451)
+scale = Vector2(1, 18.48)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_d460q")

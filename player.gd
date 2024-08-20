@@ -23,9 +23,6 @@ var current_rope_length
 
 var speed = 75
 
-var player_alive = true
-var player_won = false
-
 @onready var anim = $AnimationPlayer
 
 # audio
@@ -155,4 +152,4 @@ func swing(delta):
 		velocity = Vector2.ZERO
 	
 func die():
-	player_alive = false
+	GameManager.player_alive = false
