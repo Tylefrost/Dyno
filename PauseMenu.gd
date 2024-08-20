@@ -29,7 +29,6 @@ func _on_quit_pressed() -> void:
 
 func _on_returntomenu_pressed():
 	_is_paused = false
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	get_tree().reload_current_scene()
 	
 	
