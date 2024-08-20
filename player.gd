@@ -2,11 +2,11 @@ extends CharacterBody2D
 class_name Player
 
 #affects swing and jump
-@export var gravity_strength = 8
+@export var gravity_strength = 6
 
 #jumping
-@export var max_jump_force = 200
-@export var min_jump_force = 100
+@export var max_jump_force = 150
+@export var min_jump_force = 75
 @export var jump_charge_time = 1
 var is_charging_jump = false
 var charge_start_time = 0
