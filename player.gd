@@ -61,14 +61,14 @@ func _physics_process(delta):
 	move(delta)
 	move_and_slide()
 	
-	if Input.is_action_just_pressed("jump"):
+	if Input.is_action_just_pressed("left_click"):
 		if num_jumps == 0:
 			print("jump")
 			num_jumps += 1
 			is_charging_jump = true
 			charge_start_time = Time.get_ticks_msec() / 1000.0
 		
-	elif Input.is_action_just_released("jump") and is_charging_jump:
+	elif Input.is_action_just_released("left_click") and is_charging_jump:
 		print("jump2")
 		anim.play("back_idle")
 		is_charging_jump = false
