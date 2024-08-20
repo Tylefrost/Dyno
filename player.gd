@@ -70,7 +70,10 @@ func _physics_process(delta):
 		
 	elif Input.is_action_just_released("left_click") and is_charging_jump:
 		print("jump2")
-		anim.play("back_idle")
+		if anim.current_animation == "jump_left" or anim.current_animation == "jump_right":
+			anim.queue("back_idle")
+		else:
+			anim.play("back_idle")
 		is_charging_jump = false
 		velocity.y = -get_jump_force()
 		
