@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 [gd_scene load_steps=3 format=3 uid="uid://dxjlhdpfui63a"]
 
 [ext_resource type="PackedScene" uid="uid://pbwsgj41al4a" path="res://player.tscn" id="1_7x2ns"]
 [ext_resource type="PackedScene" uid="uid://7way10li42pb" path="res://tileset.tscn" id="3_w3p6v"]
-=======
-[gd_scene load_steps=8 format=3 uid="uid://ecru1uw7lprw"]
-
-[ext_resource type="PackedScene" uid="uid://c531d4s7cl2vb" path="res://player.tscn" id="1_7x2ns"]
-[ext_resource type="Texture2D" uid="uid://d2wwqec14d3pj" path="res://icon.svg" id="2_d2yj7"]
-[ext_resource type="PackedScene" uid="uid://ctqjtbmujnxk2" path="res://tileset.tscn" id="3_w3p6v"]
-[ext_resource type="PackedScene" uid="uid://c7my3npvtbly8" path="res://canvas_layer.tscn" id="4_2jowy"]
->>>>>>> 69bb564c15e76de09cd5e3355208d7b118d85ca1
 
 [node name="Level1" type="Node2D"]
 
@@ -20,5 +11,3 @@ scale = Vector2(1, 1)
 
 [node name="Node2D" parent="." instance=ExtResource("3_w3p6v")]
 z_index = -1
-
-[node name="CanvasLayer" parent="." instance=ExtResource("4_2jowy")]

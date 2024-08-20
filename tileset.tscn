@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 [gd_scene load_steps=8 format=4 uid="uid://7way10li42pb"]
-=======
-[gd_scene load_steps=5 format=4 uid="uid://ctqjtbmujnxk2"]
->>>>>>> 69bb564c15e76de09cd5e3355208d7b118d85ca1
 
 [ext_resource type="Texture2D" uid="uid://dht8hiys2nepy" path="res://assets/sprites/tilemap-Sheet.png" id="1_x5y0l"]
 [ext_resource type="Texture2D" uid="uid://bop7s3panjf3i" path="res://assets/sprites/tilemap-edge-Sheet.png" id="1_y0wxa"]
