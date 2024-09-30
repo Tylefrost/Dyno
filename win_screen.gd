@@ -17,6 +17,7 @@ func _process(delta):
 
 func _on_returnbutton_pressed():
 	get_tree().paused = false
+	GameManager.player_won = false
 	get_tree().reload_current_scene()
 
 

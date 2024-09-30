@@ -28,7 +28,7 @@ shader_parameter/seed = 5.0
 
 [node name="Player" parent="." instance=ExtResource("1_7x2ns")]
 position = Vector2(146, 206)
-scale = Vector2(1.04473, 1)
+scale = Vector2(1, 1)
 
 [node name="Node2D" parent="." instance=ExtResource("3_w3p6v")]
 z_index = -1
