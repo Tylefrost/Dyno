@@ -18,3 +18,10 @@ func _on_start_pressed() -> void:
 	visible = false
 	get_tree().paused = false
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
+
+func _on_randomize_pressed() -> void:
+	GameManager.randomize.emit()
+	visible = false
+	get_tree().paused = false
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)

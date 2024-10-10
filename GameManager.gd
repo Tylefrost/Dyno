@@ -6,6 +6,7 @@ var player : Player
 
 var player_won = false
 var player_alive = true
+signal randomize
 
 func respawn_player():
 	if current_checkpoint != null:

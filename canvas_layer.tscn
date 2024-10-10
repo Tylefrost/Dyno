@@ -289,6 +289,7 @@ expand_icon = true
 
 [connection signal="tree_exited" from="MainMenu" to="." method="_on_main_menu_tree_exited"]
 [connection signal="pressed" from="MainMenu/GridContainer/Start" to="MainMenu" method="_on_start_pressed"]
+[connection signal="pressed" from="MainMenu/GridContainer/Randomize" to="MainMenu" method="_on_randomize_pressed"]
 [connection signal="pressed" from="MainMenu/GridContainer/quit" to="MainMenu" method="_on_quit_pressed"]
 [connection signal="pressed" from="PauseMenu/GridContainer/resume" to="PauseMenu" method="_on_resume_pressed"]
 [connection signal="pressed" from="PauseMenu/GridContainer/quit" to="PauseMenu" method="_on_quit_pressed"]
