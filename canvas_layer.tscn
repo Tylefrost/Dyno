@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://u283db0kc2sf"]
+[gd_scene load_steps=13 format=3 uid="uid://u283db0kc2sf"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_vmrce"]
 [ext_resource type="Script" path="res://PauseMenu.gd" id="2_8hebc"]
@@ -9,7 +9,6 @@
 [ext_resource type="Texture2D" uid="uid://0uy7eos8kmp3" path="res://assets/sprites/randomize.png" id="4_li7lo"]
 [ext_resource type="Script" path="res://win_screen.gd" id="4_ttnsv"]
 [ext_resource type="Texture2D" uid="uid://cbyn0u5ih6emo" path="res://assets/sprites/paused.png" id="6_jdres"]
-[ext_resource type="Texture2D" uid="uid://bspo3cch3qqj1" path="res://assets/sprites/controls_button.png" id="7_fqumr"]
 [ext_resource type="Texture2D" uid="uid://blxkyvooe6cw2" path="res://assets/sprites/resume_button.png" id="8_p1qu4"]
 [ext_resource type="Texture2D" uid="uid://bcc403vynml2h" path="res://assets/sprites/restart_button.png" id="9_osju5"]
 [ext_resource type="Texture2D" uid="uid://dtfka2rdjvl18" path="res://assets/sprites/win_screen.png" id="12_6r1f6"]
@@ -34,16 +33,16 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -160.0
-offset_top = -56.0
+offset_top = -55.0
 offset_right = 190.0
-offset_bottom = 356.0
+offset_bottom = 357.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.25, 0.25)
 pivot_offset = Vector2(172, 74)
 
 [node name="Sprite2D" type="Sprite2D" parent="MainMenu/GridContainer"]
-position = Vector2(124, 12)
+position = Vector2(124, 8)
 scale = Vector2(4, 4)
 texture = ExtResource("2_wxf7x")
 
@@ -62,15 +61,6 @@ custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 text = " "
 icon = ExtResource("4_li7lo")
-flat = true
-icon_alignment = 1
-expand_icon = true
-
-[node name="Controls" type="Button" parent="MainMenu/GridContainer"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-text = " "
-icon = ExtResource("7_fqumr")
 flat = true
 icon_alignment = 1
 expand_icon = true
@@ -115,9 +105,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -137.0
-offset_top = -124.5
+offset_top = -117.5
 offset_right = 163.0
-offset_bottom = 207.5
+offset_bottom = 214.5
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.25, 0.25)
@@ -127,16 +117,6 @@ pivot_offset = Vector2(136, 123)
 position = Vector2(146, -77)
 scale = Vector2(10, 8)
 texture = ExtResource("6_jdres")
-
-[node name="settings" type="Button" parent="PauseMenu/GridContainer"]
-custom_minimum_size = Vector2(300, 80)
-layout_mode = 2
-theme_override_font_sizes/font_size = 26
-text = " "
-icon = ExtResource("7_fqumr")
-flat = true
-icon_alignment = 1
-expand_icon = true
 
 [node name="resume" type="Button" parent="PauseMenu/GridContainer"]
 custom_minimum_size = Vector2(300, 80)
