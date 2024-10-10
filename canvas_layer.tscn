@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://u283db0kc2sf"]
+[gd_scene load_steps=14 format=3 uid="uid://u283db0kc2sf"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_vmrce"]
 [ext_resource type="Script" path="res://PauseMenu.gd" id="2_8hebc"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://DeathScreen.gd" id="3_f0igq"]
 [ext_resource type="Texture2D" uid="uid://y8avhujvs7tv" path="res://assets/sprites/start_button.png" id="3_okvb8"]
 [ext_resource type="Texture2D" uid="uid://crr8nxkc8ovlx" path="res://assets/sprites/quit_button.png" id="4_jpr6w"]
+[ext_resource type="Texture2D" uid="uid://0uy7eos8kmp3" path="res://assets/sprites/randomize.png" id="4_li7lo"]
 [ext_resource type="Script" path="res://win_screen.gd" id="4_ttnsv"]
 [ext_resource type="Texture2D" uid="uid://cbyn0u5ih6emo" path="res://assets/sprites/paused.png" id="6_jdres"]
 [ext_resource type="Texture2D" uid="uid://bspo3cch3qqj1" path="res://assets/sprites/controls_button.png" id="7_fqumr"]
@@ -33,21 +34,21 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -160.0
-offset_top = -53.0
+offset_top = -56.0
 offset_right = 190.0
-offset_bottom = 191.0
+offset_bottom = 356.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.25, 0.25)
 pivot_offset = Vector2(172, 74)
 
 [node name="Sprite2D" type="Sprite2D" parent="MainMenu/GridContainer"]
-position = Vector2(124, 0)
+position = Vector2(124, 12)
 scale = Vector2(4, 4)
 texture = ExtResource("2_wxf7x")
 
 [node name="Start" type="Button" parent="MainMenu/GridContainer"]
-custom_minimum_size = Vector2(100, 120)
+custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 theme_override_font_sizes/font_size = 26
 text = " "
@@ -56,8 +57,26 @@ flat = true
 icon_alignment = 1
 expand_icon = true
 
+[node name="Randomize" type="Button" parent="MainMenu/GridContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+text = " "
+icon = ExtResource("4_li7lo")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Controls" type="Button" parent="MainMenu/GridContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+text = " "
+icon = ExtResource("7_fqumr")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
 [node name="quit" type="Button" parent="MainMenu/GridContainer"]
-custom_minimum_size = Vector2(250, 120)
+custom_minimum_size = Vector2(250, 100)
 layout_mode = 2
 theme_override_font_sizes/font_size = 26
 text = " "
